@@ -1,0 +1,64 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    
+    /* for fix navbar: */
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+.top-left,.top-right{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-image{
+    background-image: url("./img_avatar.png");
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* **** */
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.top-centre{
+    flex: 6;
+}
+
+.top-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.top-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+.top-list-item{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.top-search-icon{
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+}

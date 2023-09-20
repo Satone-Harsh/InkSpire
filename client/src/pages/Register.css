@@ -1,0 +1,50 @@
+.registerr{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+.register-title{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.register-form{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form>input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.register-button{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.r-login-button{
+    cursor: pointer;
+    top: 60px;right: 20px;
+    position: absolute;
+    background-color: rgb(4, 167, 167);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
